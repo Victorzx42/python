@@ -11,13 +11,13 @@ def run ():
     3 = /
     4 = *
     """))
-    if operation == 2:
+    if operations == 2:
         print(sum)
-    elif operation == 2:
+    elif operations == 2:
         print(rest)
-    elif operation == 3:
+    elif operations == 3:
         print(divided)
-    elif operation == 4:
+    elif operations == 4:
         print(multiplication)
     else:
         print("please choice a number valid")
