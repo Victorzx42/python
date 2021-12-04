@@ -5,7 +5,7 @@ def run ():
     rest = num2 - num3
     divided = num2 / num3
     multiplication = num2 * num3
-    operation = int(input("""selection the numbers for the operation
+    operations = int(input("""selection the numbers for the operation
     1 = +
     2 = -
     3 = /
