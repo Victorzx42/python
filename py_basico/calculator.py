@@ -5,19 +5,19 @@ def run ():
     rest = num1 - num2
     divided = num1 / num2
     multiplication = num1 * num2
-    operation = int(input("""selection the numbers for the operation
+    operations = int(input("""selection the numbers for the operation
     1 = +
     2 = -
     3 = /
     4 = *
     """))
-    if operation == 2:
+    if operations == 2:
         print(sum)
-    elif operation == 2:
+    elif operations == 2:
         print(rest)
-    elif operation == 3:
+    elif operations == 3:
         print(divided)
-    elif operation == 4:
+    elif operations == 4:
         print(multiplication)
     else:
         print("please choice a number valid")
