@@ -25,13 +25,4 @@ elif opcion == 2:
 elif opcion == 3:
     conversor("mexicanos", 24)
 else:
-    print("ingresa un numero correcto porfa ;(")
-    
-    
-
-
-    
-
-
-
-
+    print("ingresa un numero correcto porfa ;")
